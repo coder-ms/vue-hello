@@ -1,7 +1,26 @@
+body{
+    margin: 0 auto;
+    width: 80%;
+    background-color: wheat;
+}
 .red{
     color: red;
 }
 
 .blue{
     color: blue;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+img{
+    width: 60%;
 }

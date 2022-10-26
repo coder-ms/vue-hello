@@ -23,7 +23,37 @@
     <div id="app">
         <h1 :class = 'myClass'>{{ message }}</h1>
         <input v-model="message">
-        <button @click = 'changeColor'>Change Color</button>
+
+        <!--
+            oppure utilizzare
+         v-on:click = 'changeColor' 
+        -->
+        <button @click = 'changeColor'>Change Color</button> 
+
+        <h2>Le frasi più famose: una per film</h2>
+
+        <img :src="myImage1" alt="">
+        <h4>"{{getPhrase1()}}"</h4>
+        <p>Pirati dei Caraibi: La meledizione della prima luna</p>
+
+        <img :src="myImage2" alt="">
+        <h4>"{{getPhrase2()}}"</h4>
+        <p>Pirati dei Caraibi: La meledizione del forziere fantasma</p>
+
+        <img :src="myImage3" alt="">
+        <h4>"{{getPhrase3()}}"</h4>
+        <p>Pirati dei Caraibi: Ai confini del mondo</p>
+
+        <img :src="myImage4" alt="">
+        <h4>"{{getPhrase4()}}"</h4>
+        <p>Pirati dei Caraibi: Ai confini del mare</p>
+
+        <img :src="myImage5" alt="">
+        <h4>"{{getPhrase5()}}"</h4>
+        <p>Pirati dei Caraibi: La vendetta di Salazar</p>
+
+        
+        
     </div>
 
 
